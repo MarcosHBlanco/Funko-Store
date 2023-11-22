@@ -1,0 +1,30 @@
+﻿@page
+@model LojaDeFunkos.DetalhesModel
+
+<h2 class="my-3">@Model.Funko.Nome</h2>
+<div class="row">
+    <div class="col-4">
+        <img class="img-fluid rounded" src="@Model.Funko.ImagemUri">
+    </div>
+    <div class="col-6">
+        <h4 class="my-3">Sobre:</h4>
+        <p>@Model.Funko.Descricao</p>
+        <h4 class="my-3">Mais Info:</h4>
+        <ul>
+            <li>
+                <label asp-for="Funko.Preco"></label>:
+                @Html.DisplayFor(model => model.Funko.Preco)
+            </li>
+            <li>
+                <label asp-for="Funko.EntregaExpressa"></label>:
+                @Model.Funko.EntregaExpressaFormatada
+            </li>
+            <li>
+                <label asp-for="Funko.DataCadastro"></label>:
+                @Html.DisplayFor(model => model.Funko.DataCadastro)
+            </li>
+        </ul>
+        <a class="btn my-3 btn-primary">Editar</a>
+    </div>
+</div>
+
