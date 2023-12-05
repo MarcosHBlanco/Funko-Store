@@ -1,5 +1,6 @@
 ﻿using LojaDeFunkos.Models;
-using LojaDeFunkos.Servicos;
+using LojaDeFunkos.Serviços;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace LojaDeFunkos
@@ -7,14 +8,24 @@ namespace LojaDeFunkos
 	public class DetalhesModel : PageModel
     {
 
+        private IFunkoServico _servico;
+        public DetalhesModel(IFunkoServico servico)
+        {
+            _servico = servico;
+        }
+
         public Funko Funko { get; private set; }
 
-        public void OnGet(int id)
+        public IActionResult OnGet(int id)
         {
-            var servico = new FunkoServico();
+            Funko = _servico.Obter(id);
 
-            Funko = servico.Obter(id);
+            if(Funko == null)
+            {
+                return NotFound();
+            }
 
+            return Page();
         }
     }
 }

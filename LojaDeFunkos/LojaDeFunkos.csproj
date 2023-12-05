@@ -15,9 +15,35 @@
     <Folder Include="wwwroot\imagens\" />
     <Folder Include="Models\" />
     <Folder Include="Serviços\" />
+    <Folder Include="Data\" />
+    <Folder Include="Serviços\Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Serviços\" />
+    <None Remove="Data\" />
+    <None Remove="Serviços\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.421302" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions" Version="0.2.226203" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="7.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Data\EmptyClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Serviços\FunkoServico.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 </Project>

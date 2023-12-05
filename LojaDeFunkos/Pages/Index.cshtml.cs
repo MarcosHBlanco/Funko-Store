@@ -1,11 +1,16 @@
 ﻿using LojaDeFunkos.Models;
-using LojaDeFunkos.Servicos;
+using LojaDeFunkos.Serviços;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace LojaDeFunkos.Pages;
 
 public class IndexModel : PageModel
 {
+    private IFunkoServico _servico;
+    public IndexModel(IFunkoServico servico)
+    {
+        _servico = servico;
+    }
     public IList<Funko> ListaFunkos { get; private set; }
 
     public void OnGet()
@@ -13,8 +18,6 @@ public class IndexModel : PageModel
 
         ViewData["Title"] = "Home page";
 
-        var servico = new FunkoServico();
-
-        ListaFunkos = servico.ObterTodos();
+        ListaFunkos = _servico.ObterTodos();
     }
 }

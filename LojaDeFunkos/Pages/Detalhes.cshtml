@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/funko/{slug}/{id}"
 @model LojaDeFunkos.DetalhesModel
 
 <h2 class="my-3">@Model.Funko.Nome</h2>
@@ -24,7 +24,8 @@
                 @Html.DisplayFor(model => model.Funko.DataCadastro)
             </li>
         </ul>
-        <a class="btn my-3 btn-primary">Editar</a>
+        <a class="btn my-3 btn-primary"
+           asp-page="/Editar" asp-route-id="@Model.Funko.FunkoId">Editar</a>
     </div>
 </div>
 

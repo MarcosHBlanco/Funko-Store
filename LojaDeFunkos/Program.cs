@@ -1,7 +1,13 @@
+using LojaDeFunkos.Data;
+using LojaDeFunkos.Serviços;
+using FunkoServico = LojaDeFunkos.Serviços.Data.FunkoServico;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<IFunkoServico, FunkoServico>();
+builder.Services.AddDbContext<FunkoDbContext>();
 
 var app = builder.Build();
 

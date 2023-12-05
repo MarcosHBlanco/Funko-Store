@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/MarcosBlanco1/.nuget/packages/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.4.421302/build/WebTypeReplacements.typemap]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Detalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWxoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Error.cshtml]

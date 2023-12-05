@@ -1,4 +1,4 @@
-﻿@page
+﻿@page 
 @model IndexModel
 
 <body>
@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <h5 class="card-title">@item.Nome</h5>
                     <p class="card-text">@item.Descricao</p>
-                    <a class="btn btn-primary" asp-page="/Detalhes" asp-route-id="@item.FunkoId">Ver mais</a>
+                    <a class="btn btn-primary" asp-page="/Detalhes" asp-route-slug="@item.NomeSlug" asp-route-id="@item.FunkoId">Ver mais</a>
                 </div>
             </div>
         }

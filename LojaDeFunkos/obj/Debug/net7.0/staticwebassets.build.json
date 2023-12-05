@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "irWBzYcWhBffA4BW9qKicjiFXP9qtihmwdcImVHS8YQ=",
+  "Hash": "mUBZ1pF7hmJj2yQ+KyF4dbo6WsGCm8w9QimO9+IyqeQ=",
   "Source": "LojaDeFunkos",
   "BasePath": "_content/LojaDeFunkos",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/wwwroot/imagens/FunkoBatmanDoFuturo.webp",
+      "SourceId": "LojaDeFunkos",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/wwwroot/",
+      "BasePath": "_content/LojaDeFunkos",
+      "RelativePath": "imagens/FunkoBatmanDoFuturo.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imagens/FunkoBatmanDoFuturo.webp"
     },
     {
       "Identity": "/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/wwwroot/imagens/FunkoEivor.jpg",

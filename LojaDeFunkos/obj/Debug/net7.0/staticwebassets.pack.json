@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/wwwroot/imagens/FunkoBatmanDoFuturo.webp",
+      "PackagePath": "staticwebassets/imagens/FunkoBatmanDoFuturo.webp"
+    },
+    {
       "Id": "/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/wwwroot/imagens/FunkoEivor.jpg",
       "PackagePath": "staticwebassets/imagens/FunkoEivor.jpg"
     },

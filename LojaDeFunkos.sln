@@ -5,6 +5,11 @@ VisualStudioVersion = 25.0.1706.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaDeFunkos", "LojaDeFunkos\LojaDeFunkos.csproj", "{B25EC5D2-0371-4FDE-8C20-DFC65C970D88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens da Solução", "Itens da Solução", "{265C48D9-C81F-4BE9-BC7A-A55D6500C594}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
