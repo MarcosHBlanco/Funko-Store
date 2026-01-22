@@ -9,5 +9,8 @@ public interface IFunkoServico
     void Incluir(Funko funko);
     void Alterar(Funko funko);
     void Excluir(int id);
+    public IList<Marca> ObterTodasMarcas();
+    Marca ObterMarca(int id);
+    IList<Universo> ObterTodosUniversos();
 }
 

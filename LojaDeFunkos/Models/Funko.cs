@@ -22,14 +22,20 @@ public class Funko
     [DataType(DataType.Currency)]
     public double Preco { get; set; }
 
-    [Display(Name = "Entrega Expressa")]
-    public bool EntregaExpressa { get; set; }
-    public string EntregaExpressaFormatada => EntregaExpressa ? "Sim" : "Não";
+    [Display(Name = "Status")]
+    public bool Status { get; set; }
+    public string EntregaExpressaFormatada => Status ? "Herói" : "Vilão";
 
-    [Display(Name = "Dispoível em")]
+    [Display(Name = "Personagem criado em")]
     [DisplayFormat(DataFormatString ="{0:MMMM \\de yyyy}")]
 
     [DataType("month")]
     public DateTime DataCadastro { get; set; }
+
+    [Display(Name = "Marca")]
+    public int? MarcaId { get; set; }
+
+    [Display(Name = "Universo")]
+    public ICollection<Universo>? Universos { get; set; }
 }
 

@@ -1,0 +1,26 @@
+@page
+@model LojaDeFunkos.Pages.Universos.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Universo</h4>
+    <hr />
+    <dl class="row bg-dark text-white">
+        <dt class="col-sm-2">
+            Nome
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Universo.Nome)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Universo?.UniversoId">Editar</a> |
+    <a asp-page="./Index">Voltar a lista</a>
+</div>

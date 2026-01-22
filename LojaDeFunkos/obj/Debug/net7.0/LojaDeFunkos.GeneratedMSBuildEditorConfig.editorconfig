@@ -20,6 +20,34 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JpYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +68,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Marcas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2FzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Marcas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2FzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Marcas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2FzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Marcas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2FzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Marcas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFyY2FzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Privacidade.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjaWRhZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,8 +96,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUXVlbVNvbW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Universos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVW5pdmVyc29zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Universos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVW5pdmVyc29zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Universos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVW5pdmVyc29zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Universos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVW5pdmVyc29zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/Universos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVW5pdmVyc29zL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/Pages/_ViewImports.cshtml]

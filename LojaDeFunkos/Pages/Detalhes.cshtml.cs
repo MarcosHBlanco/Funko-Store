@@ -9,6 +9,8 @@ namespace LojaDeFunkos
     {
 
         private IFunkoServico _servico;
+        public string DescricaoMarca { get; set; }
+
         public DetalhesModel(IFunkoServico servico)
         {
             _servico = servico;
@@ -19,7 +21,11 @@ namespace LojaDeFunkos
         public IActionResult OnGet(int id)
         {
             Funko = _servico.Obter(id);
-
+            if(Funko.MarcaId != null)
+            {
+                DescricaoMarca = _servico.ObterMarca(Funko.MarcaId.Value).Descricao;
+            }
+            
             if(Funko == null)
             {
                 return NotFound();

@@ -3,7 +3,7 @@
 <div class="row pt-5">
     <div class="col-md-4">
         <form method="post">
-            <h4>Inclusão de Hamburguer</h4>
+            <h4>Inclusão de Funko</h4>
             <hr />
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -32,14 +32,28 @@
             </div>
 
             <div class="form-group mt-3 mb-3">
-                <input class="form-check-input" asp-for="Funko.EntregaExpressa" />
-                <label asp-for="Funko.EntregaExpressa"></label>
+                <input class="form-check-input" asp-for="Funko.Status" />
+                <label asp-for="Funko.Status"></label>
             </div>
 
             <div class="form-group">
                 <label asp-for="Funko.DataCadastro" class="control-label"></label>
                 <input asp-for="Funko.DataCadastro" class="form-control" />
                 <span asp-validation-for="Funko.DataCadastro" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3 mt-3">
+                <label asp-for="Funko.MarcaId" class="control-label"></label>
+                <select class="form-select" asp-for="Funko.MarcaId" asp-items="Model.MarcaOptionItems">
+                    <option value="">Escolha a marca do produto</option>
+                </select>
+                <span asp-validation-for="Funko.MarcaId" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3 mt-3">
+                <label asp-for="Funko.Universos" class="control-label"></label>
+                <select class="form-select" asp-for="UniversoIds" asp-items="Model.UniversoOptionItems">
+                </select>
+                <span asp-validation-for="Funko.Universos" class="text-danger"></span>
             </div>
 
             <div class="form-group mt-4">
