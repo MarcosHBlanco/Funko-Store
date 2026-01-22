@@ -57,3 +57,22 @@ cd Funko-Store
 dotnet restore
 dotnet build
 dotnet run
+
+📚 Learning Outcomes
+
+Implementing CRUD functionality using Razor Pages
+
+Working with Entity Framework Core and migrations
+
+Designing relational databases
+
+Implementing authentication and authorization
+
+Understanding MVC-style project architecture
+
+Applying backend fundamentals in a real-world scenario
+
+📌 Notes
+
+This project was developed during an intensive bootcamp and represents an important step in my backend learning journey.
+More recent projects in my portfolio focus on modern frontend frameworks (React) and API-based architectures.

@@ -1,7 +1,6 @@
 /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/appsettings.Development.json
 /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/appsettings.json
 /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/LojaDeFunkos.staticwebassets.runtime.json
-/Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/Serviços/FunkoServico.cs
 /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/LojaDeFunkos
 /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/LojaDeFunkos.deps.json
 /Users/MarcosBlanco1/Projects/LojaDeFunkos/LojaDeFunkos/bin/Debug/net7.0/LojaDeFunkos.runtimeconfig.json

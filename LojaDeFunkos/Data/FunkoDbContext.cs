@@ -6,9 +6,9 @@ namespace LojaDeFunkos.Data
 {
 	public class FunkoDbContext : IdentityDbContext
 	{
-        public DbSet<Funko> Funko { get; set; }
-        public DbSet<Marca> Marca { get; set; }
-        public DbSet<Universo> Universo { get; set; }
+        public DbSet<Funko>? Funko { get; set; }
+        public DbSet<Marca>? Marca { get; set; }
+        public DbSet<Universo>? Universo { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

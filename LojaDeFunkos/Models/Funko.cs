@@ -7,7 +7,7 @@ public class Funko
     public int FunkoId { get; set; }
 
     [StringLength(50, MinimumLength = 10, ErrorMessage = "Este campo deve conter entre 10 e 50 caracteres.")]
-    public required string Nome { get; set; }
+    public required string Nome { get; set; } = string.Empty;
     public string NomeSlug => Nome.ToLower().Replace(" ", "-");
 
    
@@ -16,7 +16,7 @@ public class Funko
     public required string Descricao { get; set; }
 
     [Display(Name = "Caminho URl da imagem")]
-    public required string ImagemUri { get; set; }
+    public required string ImagemUri { get; set; } = string.Empty;
 
     [Display(Name ="Preço")]
     [DataType(DataType.Currency)]
