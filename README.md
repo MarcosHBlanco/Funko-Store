@@ -1,4 +1,5 @@
 # Funko-Store
+
 # 🎁 Funko Store – ASP.NET Core CRUD Application
 
 A full-stack web application developed as part of a software development bootcamp at **INFNET (Rio de Janeiro, Brazil)** in 2023.  
@@ -33,24 +34,35 @@ The project simulates a simple store management system for collectible Funko Pop
 
 ## 📸 Screenshots
 
-> _(Screenshots taken locally — project does not require deployment to demonstrate functionality)_
+> _Screenshots taken from the application running locally._
 
-- Home Page  
-- Login / Register  
-- Funko Management (Create / Edit / Delete)  
-- Brand & Universe Management  
+**Home / Index Page**
 
-_(Add screenshots here)_
+![Index page](./Screenshots/indexpage.png)
+
+**Funko Details**
+
+![Funko details](./Screenshots/funkodetails.png)
+
+**Universes Management**
+
+![Universes page](./Screenshots/universespage.png)
+
+**Add / Edit**
+
+![Login page](./Screenshots/includingpage.png)
 
 ---
 
 ## 🚀 Getting Started (Local Setup)
 
 ### Prerequisites
+
 - .NET SDK **7.x**
 - SQLite (included via file-based database)
 
 ### Steps
+
 ```bash
 git clone https://github.com/MarcosHBlanco/Funko-Store.git
 cd Funko-Store
@@ -76,3 +88,4 @@ Applying backend fundamentals in a real-world scenario
 
 This project was developed during an intensive bootcamp and represents an important step in my backend learning journey.
 More recent projects in my portfolio focus on modern frontend frameworks (React) and API-based architectures.
+```
